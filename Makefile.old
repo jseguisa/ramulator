@@ -40,7 +40,7 @@ libramulator.a: $(OBJS) $(OBJDIR)/Gem5Wrapper.o
 
 $(OBJS): | $(OBJDIR)
 
-$(OBJDIR): 
+$(OBJDIR):
 	@mkdir -p $@
 
 $(OBJDIR)/%.o: $(SRCDIR)/%.cpp
