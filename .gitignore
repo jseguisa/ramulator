@@ -2,6 +2,7 @@
 
 # Compiled Object files
 obj/
+build
 
 # Compiled target executable files
 ramulator
